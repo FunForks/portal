@@ -58,6 +58,7 @@ export const App = () => {
       id="app"
       onMouseDown={reactBubble}
     >
+      <p>Open the Developer Console to see the results of clicking on the buttons below.</p>
       <IFrame
         forward={setIframeRef}
         reactBubble={reactBubble}

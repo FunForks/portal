@@ -72,4 +72,4 @@ As far as React is concerned, the JSX component continues to behave as if it wer
     This tells you that the DOM hierarchy and the React hierarchy are different. Event listeners set by React receive events is the same order as before, but the DOM only has a `mouseup` handler in the button itself.
 
 ## Why would you want to use `ReactDOM.createPortal()`?
-See the [React documentation](https://react.dev/reference/react-dom/createPortal#usage) for more details.
+See the [React documentation](https://react.dev/reference/react-dom/createPortal) for more details.
