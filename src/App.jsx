@@ -4,7 +4,7 @@
 
 
 import React, { useState } from 'react'
-import { IFrame } from './IFrame'
+import { Portal } from './Portal'
 
 
 let shown = false
@@ -59,7 +59,7 @@ export const App = () => {
       onMouseDown={reactBubble}
     >
       <p>Open the Developer Console to see the results of clicking on the buttons below.</p>
-      <IFrame
+      <Portal
         forward={setIframeRef}
         reactBubble={reactBubble}
         getTag={getTag}

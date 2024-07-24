@@ -1,5 +1,5 @@
 /**
- * src/components/IFrame.jsx
+ * src/components/Portal.jsx
  */
 
 
@@ -7,7 +7,7 @@ import React from 'react'
 import { createPortal } from 'react-dom';
 
 
-export const IFrame = ({ forward, reactBubble, getTag }) => {
+export const Portal = ({ forward, reactBubble, getTag }) => {
   // Log the element that was clicked and all its parents, as
   // reported by the DOM, up as far as document.body. (There is
   // no need to include HTML and DOCUMENT)
